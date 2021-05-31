@@ -31,11 +31,11 @@ public class FieldValidationTest {
         Assertions.assertEquals(true, Validation.checkDateFields(date));
     }
 
-//    @Test
-//    @DisplayName("Валидация фамилии")
-//    public void fioBadValue(){
-//        Assertions.assertEquals(true, Validation.checkFIOFields("Поварывгш"));
-//    }
+    @Test
+    @DisplayName("Валидация фамилии")
+    public void fioBadValue(){
+        Assertions.assertEquals(true, Validation.checkFIOFields("Поварывгш"));
+    }
 
     @Test
     @DisplayName("Проверка данных после сортировки")
